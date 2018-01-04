@@ -1,4 +1,5 @@
 <?php 
 	$username = "shemmarr2092@gmail.com";
-	$password = "Shem1046"; 
+	$password = "";
+	//the password belong here for contact form. 
 ?>

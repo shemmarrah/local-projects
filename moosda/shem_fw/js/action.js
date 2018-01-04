@@ -75,14 +75,14 @@ $(document).ready(function(){
 	});
 	
 });
-
+//C:/xampp/htdocs/wordpress\wp-content\themes\moosda\shem_fw\js\content
 //
 $(document).ready(function(){
 
-	$( ".moo-sda-service__content" ).load( "http://www.shemmarrah.com/wp-content/themes/moosda/shem_fw/content/SabbathSchool.php" );
+	$( ".moo-sda-service__content" ).load( "http://localhost/wordpress/wp-content/themes/moosda/shem_fw/content/SabbathSchool.php" );
 	$('.moo-sda-service__links li a').click(function(){
 		var page = $(this).attr('href');
-		$('.moo-sda-service__content').load('http://www.shemmarrah.com/wp-content/themes/moosda/shem_fw/content/'+ page +'.php');
+		$('.moo-sda-service__content').load('http://localhost/wordpress/wp-content/themes/moosda/shem_fw/content/'+ page +'.php');
 	return false;
 	})
 });
@@ -91,10 +91,10 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
-	$( ".service__mobileLoad-content" ).load( "http://www.shemmarrah.com/wp-content/themes/moosda/shem_fw/content/SabbathSchool.php" );
+	$( ".service__mobileLoad-content" ).load( "http://localhost/wordpress/wp-content/themes/moosda/shem_fw/content/SabbathSchool.php" );
 	$('.service__mobileLoad-Links li a').click(function(){
 		var page = $(this).attr('href');
-		$('.service__mobileLoad-content').load('http://www.shemmarrah.com/wp-content/themes/moosda/shem_fw/content/'+ page +'.php');
+		$('.service__mobileLoad-content').load('http://localhost/wordpress/wp-content/themes/moosda/shem_fw/content/'+ page +'.php');
 	return false;
 	})
 });
@@ -102,21 +102,22 @@ $(document).ready(function(){
 //load mobile content 2
 $(document).ready(function(){
 
-	$( ".service__mobileLoad-content2" ).load( "http://www.shemmarrah.com/wp-content/themes/moosda/shem_fw/content/AyService.php" );
+	$( ".service__mobileLoad-content2" ).load( "http://localhost/wordpress/wp-content/themes/moosda/shem_fw/content/AyService.php" );
 	$('.service__mobileLoad-Links2 li a').click(function(){
 		var page = $(this).attr('href');
-		$('.service__mobileLoad-content2').load('http://www.shemmarrah.com/wp-content/themes/moosda/shem_fw/content/'+ page +'.php');
+		$('.service__mobileLoad-content2').load('http://localhost/wordpress/wp-content/themes/moosda/shem_fw/content/'+ page +'.php');
 	return false;
 	})
 });
 
+
 //load transportation content
 $(document).ready(function(){
-
-	$( ".moo-sda-location__transportation-content" ).load( "http://www.shemmarrah.com/wp-content/themes/moosda/shem_fw/transportation/Train.php" );
+	//http://www.shemmarrah.com/wp-content/themes/moosda/shem_fw/transportation/Train.php
+	$( ".moo-sda-location__transportation-content" ).load( "http://localhost/wordpress/wp-content/themes/moosda/shem_fw/transportation/Train.php" );
 	$('.moo-sda-location__links li a').click(function(){
 		var page = $(this).attr('href');
-		$('.moo-sda-location__transportation-content').load('http://www.shemmarrah.com/wp-content/themes/moosda/shem_fw/transportation/'+ page +'.php');
+		$('.moo-sda-location__transportation-content').load('http://localhost/wordpress/wp-content/themes/moosda/shem_fw/transportation/'+ page +'.php');
 	return false;
 	})
 });
